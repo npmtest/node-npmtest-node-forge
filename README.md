@@ -1,0 +1,186 @@
+# test coverage for  [node-forge (v0.7.1)](https://github.com/digitalbazaar/forge)  [![npm package](https://img.shields.io/npm/v/npmtest-node-forge.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-node-forge) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-node-forge.svg)](https://travis-ci.org/npmtest/node-npmtest-node-forge)
+#### JavaScript implementations of network transports, cryptography, ciphers, PKI, message digests, and various utilities.
+
+[![NPM](https://nodei.co/npm/node-forge.png?downloads=true)](https://www.npmjs.com/package/node-forge)
+
+| git-branch : | [alpha](https://github.com/npmtest/node-npmtest-node-forge/tree/alpha)|
+|--:|:--|
+| coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-node-forge/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-node-forge/build/coverage.html/index.html)|
+| test-report : | [![test-report](https://npmtest.github.io/node-npmtest-node-forge/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-node-forge/build/test-report.html)|
+| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-node-forge/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-node-forge/tree/gh-pages/build)|
+
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-node-forge/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-node-forge/build/coverage.html/index.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-node-forge/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-node-forge%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-node-forge/build/test-report.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-node-forge/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-node-forge%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-node-forge/build/apidoc.html)
+
+![npmPackageListing](https://npmtest.github.io/node-npmtest-node-forge/build/screenCapture.npmPackageListing.svg)
+
+![npmPackageDependencyTree](https://npmtest.github.io/node-npmtest-node-forge/build/screenCapture.npmPackageDependencyTree.svg)
+
+
+
+# package.json
+
+```json
+
+{
+    "author": {
+        "name": "Digital Bazaar, Inc.",
+        "email": "support@digitalbazaar.com",
+        "url": "http://digitalbazaar.com/"
+    },
+    "browser": {
+        "buffer": false,
+        "crypto": false,
+        "process": false
+    },
+    "bugs": {
+        "url": "https://github.com/digitalbazaar/forge/issues",
+        "email": "support@digitalbazaar.com"
+    },
+    "contributors": [
+        {
+            "name": "Dave Longley",
+            "email": "dlongley@digitalbazaar.com"
+        },
+        {
+            "name": "David I. Lehn",
+            "email": "dlehn@digitalbazaar.com"
+        },
+        {
+            "name": "Stefan Siegl",
+            "email": "stesie@brokenpipe.de"
+        },
+        {
+            "name": "Christoph Dorn",
+            "email": "christoph@christophdorn.com"
+        }
+    ],
+    "dependencies": {},
+    "description": "JavaScript implementations of network transports, cryptography, ciphers, PKI, message digests, and various utilities.",
+    "devDependencies": {
+        "browserify": "^13.1.1",
+        "commander": "^2.9.0",
+        "express": "^4.14.1",
+        "istanbul": "^0.4.5",
+        "jscs": "^3.0.7",
+        "jshint": "^2.9.4",
+        "karma": "^1.4.1",
+        "karma-browserify": "^5.1.1",
+        "karma-chrome-launcher": "^2.0.0",
+        "karma-edge-launcher": "^0.2.0",
+        "karma-firefox-launcher": "^1.0.0",
+        "karma-ie-launcher": "^1.0.0",
+        "karma-mocha": "^1.3.0",
+        "karma-mocha-reporter": "^2.2.2",
+        "karma-phantomjs-launcher": "^1.0.2",
+        "karma-safari-launcher": "^1.0.0",
+        "karma-sauce-launcher": "^1.1.0",
+        "karma-sourcemap-loader": "^0.3.7",
+        "karma-tap-reporter": "0.0.6",
+        "karma-webpack": "^2.0.2",
+        "mocha": "^3.2.0",
+        "mocha-lcov-reporter": "^1.2.0",
+        "nodejs-websocket": "^1.7.1",
+        "opts": "^1.2.2",
+        "webpack": "^2.2.0"
+    },
+    "directories": {},
+    "dist": {
+        "shasum": "9da611ea08982f4b94206b3beb4cc9665f20c300",
+        "tarball": "https://registry.npmjs.org/node-forge/-/node-forge-0.7.1.tgz"
+    },
+    "engines": {
+        "node": "*"
+    },
+    "files": [
+        "lib/*.js",
+        "flash/swf/*.swf",
+        "dist/*.min.js",
+        "dist/*.min.js.map"
+    ],
+    "gitHead": "11e0cdccf190ff74e2b38d7fff06afebda29f5f5",
+    "homepage": "https://github.com/digitalbazaar/forge",
+    "jspm": {
+        "format": "amd"
+    },
+    "keywords": [
+        "aes",
+        "asn",
+        "asn.1",
+        "cbc",
+        "crypto",
+        "cryptography",
+        "csr",
+        "des",
+        "gcm",
+        "hmac",
+        "http",
+        "https",
+        "md5",
+        "network",
+        "pkcs",
+        "pki",
+        "prng",
+        "rc2",
+        "rsa",
+        "sha1",
+        "sha256",
+        "sha384",
+        "sha512",
+        "ssh",
+        "tls",
+        "x.509",
+        "x509"
+    ],
+    "license": "(BSD-3-Clause OR GPL-2.0)",
+    "main": "lib/index.js",
+    "maintainers": [
+        {
+            "name": "davidlehn",
+            "email": "dil@lehn.org"
+        },
+        {
+            "name": "dlongley",
+            "email": "dlongley@digitalbazaar.com"
+        },
+        {
+            "name": "msporny",
+            "email": "msporny@digitalbazaar.com"
+        }
+    ],
+    "name": "node-forge",
+    "optionalDependencies": {},
+    "readme": "ERROR: No README data found!",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/digitalbazaar/forge.git"
+    },
+    "scripts": {
+        "_jscs": "jscs *.js lib/*.js tests/*.js tests/unit/*.js tests/legacy/*.js tests/issues/*.js tests/websockets/*.js",
+        "_jshint": "jshint *.js lib/*.js tests/*.js tests/unit/*.js tests/legacy/*.js tests/issues/*.js tests/websockets/*.js",
+        "build": "webpack",
+        "coverage": "rm -rf coverage && ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- -u exports -t 30000 -R spec tests/unit/index.js",
+        "coverage-lcov": "rm -rf coverage && ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha --report lcovonly -- -u exports -t 30000 -R spec tests/unit/index.js",
+        "coverage-report": "istanbul report",
+        "jscs": "jscs *.js lib/*.js tests/*.js tests/unit/*.js tests/legacy/*.js tests/issues/*.js tests/websockets/*.js",
+        "jshint": "jshint *.js lib/*.js tests/unit/*.js tests/legacy/*.js tests/issues/*.js tests/websockets/*.js",
+        "prepublish": "npm run build",
+        "test": "mocha -t 30000 -R spec tests/unit/index.js",
+        "test-build": "webpack --config webpack-tests.config.js",
+        "test-karma": "karma start",
+        "test-karma-sauce": "karma start karma-sauce.conf",
+        "test-server": "node tests/server.js",
+        "test-server-webid": "node tests/websockets/server-webid.js",
+        "test-server-ws": "node tests/websockets/server-ws.js"
+    },
+    "version": "0.7.1"
+}
+```
+
+
+
+# misc
+- this document was created with [utility2](https://github.com/kaizhu256/node-utility2)
