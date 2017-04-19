@@ -1,7 +1,10 @@
-# test coverage for  [node-forge (v0.7.1)](https://github.com/digitalbazaar/forge)  [![npm package](https://img.shields.io/npm/v/npmtest-node-forge.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-node-forge) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-node-forge.svg)](https://travis-ci.org/npmtest/node-npmtest-node-forge)
+# npmtest-node-forge
+
+#### test coverage for  [node-forge (v0.7.1)](https://github.com/digitalbazaar/forge)  [![npm package](https://img.shields.io/npm/v/npmtest-node-forge.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-node-forge) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-node-forge.svg)](https://travis-ci.org/npmtest/node-npmtest-node-forge)
+
 #### JavaScript implementations of network transports, cryptography, ciphers, PKI, message digests, and various utilities.
 
-[![NPM](https://nodei.co/npm/node-forge.png?downloads=true)](https://www.npmjs.com/package/node-forge)
+[![NPM](https://nodei.co/npm/node-forge.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/node-forge)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-node-forge/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-node-forge/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-node-forge/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-node-forge/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-node-forge/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-node-forge/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-node-forge/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-node-forge/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-node-forge/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-node-forge/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-node-forge%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-node-forge/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-node-forge/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-node-forge/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-node-forge/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-node-forge%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-node-forge/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-node-forge/build/test-report.html](https://npmtest.github.io/node-npmtest-node-forge/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-node-forge/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-node-forge/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-node-forge/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-node-forge/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-node-forge/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-node-forge/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-node-forge/build/screenCapture.npmPackageListing.svg)
 
@@ -28,7 +37,6 @@
 {
     "author": {
         "name": "Digital Bazaar, Inc.",
-        "email": "support@digitalbazaar.com",
         "url": "http://digitalbazaar.com/"
     },
     "browser": {
@@ -37,25 +45,20 @@
         "process": false
     },
     "bugs": {
-        "url": "https://github.com/digitalbazaar/forge/issues",
-        "email": "support@digitalbazaar.com"
+        "url": "https://github.com/digitalbazaar/forge/issues"
     },
     "contributors": [
         {
-            "name": "Dave Longley",
-            "email": "dlongley@digitalbazaar.com"
+            "name": "Dave Longley"
         },
         {
-            "name": "David I. Lehn",
-            "email": "dlehn@digitalbazaar.com"
+            "name": "David I. Lehn"
         },
         {
-            "name": "Stefan Siegl",
-            "email": "stesie@brokenpipe.de"
+            "name": "Stefan Siegl"
         },
         {
-            "name": "Christoph Dorn",
-            "email": "christoph@christophdorn.com"
+            "name": "Christoph Dorn"
         }
     ],
     "dependencies": {},
@@ -139,21 +142,17 @@
     "main": "lib/index.js",
     "maintainers": [
         {
-            "name": "davidlehn",
-            "email": "dil@lehn.org"
+            "name": "davidlehn"
         },
         {
-            "name": "dlongley",
-            "email": "dlongley@digitalbazaar.com"
+            "name": "dlongley"
         },
         {
-            "name": "msporny",
-            "email": "msporny@digitalbazaar.com"
+            "name": "msporny"
         }
     ],
     "name": "node-forge",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/digitalbazaar/forge.git"
